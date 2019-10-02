@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgrey;
+    font-weight: bold;
+}
+
+img {
+    display: flex;
+    border: 1px solid lightgray;
+    margin: 5px;
+    width: 400px;
+    height: 400px;
+}
+
+ul {
+    list-style: none;
+}
+
+a { 
+    color: black;
+
+    text-decoration-line: none;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+.octodex {
+    display: flex;
+    justify-content: center;
+}
+
+.octocat {
+    border: 1px solid lightgray;
+    border-left-style: none;
+    border-top-style: none;
+    border-right-style: none;
+    margin: 10px;
+}
+
+.authors li {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.authors img {
+    border-style: none;
+    width: 30px;
+    height: 30px;
+    display: flex;
+}
+
+
+
+.image-number{
+    margin: 5px;
+    display: flex;
+}
+
+.image-caption {
+    display: flex;
+    justify-content: flex-end;
+    justify-items: space-around;
+    align-items: center;
+    color: grey;
+}
+
+.image-caption span {
+    padding: 0px 5px;
+}
+.image-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-caption ul {
+    padding: 0px;
+}
+
+.image-number::before {
+    content: "#";
+}
